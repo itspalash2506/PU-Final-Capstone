@@ -1,0 +1,45 @@
+# ── Web framework ─────────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+python-multipart
+
+# ── Config & validation ───────────────────────────────────────────────────────
+pydantic
+pydantic-settings
+
+# ── Database ──────────────────────────────────────────────────────────────────
+sqlalchemy
+
+# ── Vector database ───────────────────────────────────────────────────────────
+qdrant-client
+
+# ── Embeddings (local, no API) ────────────────────────────────────────────────
+sentence-transformers
+torch
+transformers
+
+# ── BM25 sidecar ─────────────────────────────────────────────────────────────
+rank-bm25
+
+# ── LLM / Agent framework ────────────────────────────────────────────────────
+openai      # OpenRouter uses OpenAI-compatible API
+langgraph
+langchain
+langchain-openai
+
+# ── ML / Prediction pipeline ─────────────────────────────────────────────────
+xgboost
+scikit-learn
+pandas
+numpy
+joblib
+shap
+
+# ── Evaluation ────────────────────────────────────────────────────────────────
+deepeval
+
+# ── HTTP client ───────────────────────────────────────────────────────────────
+httpx
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv
